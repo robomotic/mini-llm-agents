@@ -1,0 +1,139 @@
+PS C:\Users\paolo\OneDrive\Documents\Github\PsLLM> C:\Users\paolo\OneDrive\Documents\Github\PsLLM\RunMe.ps1
+--- System Hardware Information ---
+CPU Type: AMD
+CPU Name: AMD Ryzen 7 5800H with Radeon Graphics         
+CPU Extensions: ht, sse
+Total RAM: 15.36 GB
+Disks:
+  Drive C:: 600.77 GB free of 921.78 GB
+  Drive D:: 9 GB free of 30 GB
+GPUs:
+  NVIDIA GeForce RTX 3060 Laptop GPU (4 GB VRAM) - Utilization: N/A
+  AMD Radeon(TM) Graphics (0.5 GB VRAM) - Utilization: N/A
+Selected Llama.cpp Zip:
+  https://github.com/ggml-org/llama.cpp/releases/download/b5349/llama-b5349-bin-win-cpu-x64.zip
+Zip already downloaded: C:\Users\paolo\AppData\Local\Temp\llama-b5349-bin-win-cpu-x64.zip
+Binaries already extracted in C:\Users\paolo\AppData\Local\llama-bin. Skipping extraction.
+Extraction successful. Extracted files:
+  C:\Users\paolo\AppData\Local\llama-bin\llama-server.exe
+Model already downloaded: C:\Users\paolo\AppData\Local\llama-bin\tinyllama-1.1b-chat-v1.0.Q2_K.gguf
+Model available at: C:\Users\paolo\AppData\Local\llama-bin\tinyllama-1.1b-chat-v1.0.Q2_K.gguf
+GGUF model ready at: C:\Users\paolo\AppData\Local\llama-bin\tinyllama-1.1b-chat-v1.0.Q2_K.gguf
+Found running llama-server process (PID: 80920). Checking health...
+Llama server health response:
+{
+    "status":  "ok"
+}
+Llama server health is OK. Sending completion request...
+Llama server completion response:
+{
+    "index":  0,
+    "content":  "\ndownloaded in the same directory as the installer, which may make it difficult to identify. You can choose a different path
+ for your installation files.\n4. Choose the appropriate folder in the installer’s configuration options.\n5. Save the installer package.\n\nB
+y following these steps, you should be able to download and install Microsoft Windows XP from the official website (https://www.microsoft.com)
+.",
+    "tokens":  [
+
+               ],
+    "id_slot":  0,
+    "stop":  true,
+    "model":  "gpt-3.5-turbo",
+    "tokens_predicted":  86,
+    "tokens_evaluated":  8,
+    "generation_settings":  {
+                                "n_predict":  128,
+                                "seed":  0,
+                                "temperature":  0.800000011920929,
+                                "dynatemp_range":  0.0,
+                                "dynatemp_exponent":  1.0,
+                                "top_k":  40,
+                                "top_p":  0.949999988079071,
+                                "min_p":  0.05000000074505806,
+                                "top_n_sigma":  -1.0,
+                                "xtc_probability":  0.0,
+                                "xtc_threshold":  0.10000000149011612,
+                                "typical_p":  1.0,
+                                "repeat_last_n":  64,
+                                "repeat_penalty":  1.100000023841858,
+                                "presence_penalty":  0.0,
+                                "frequency_penalty":  0.0,
+                                "dry_multiplier":  0.0,
+                                "dry_base":  1.75,
+                                "dry_allowed_length":  2,
+                                "dry_penalty_last_n":  4096,
+                                "dry_sequence_breakers":  [
+                                                              "\n",
+                                                              ":",
+                                                              "\"",
+                                                              "*"
+                                                          ],
+                                "mirostat":  0,
+                                "mirostat_tau":  5.0,
+                                "mirostat_eta":  0.10000000149011612,
+                                "stop":  [
+
+                                         ],
+                                "max_tokens":  128,
+                                "n_keep":  0,
+                                "n_discard":  0,
+                                "ignore_eos":  false,
+                                "stream":  false,
+                                "logit_bias":  [
+
+                                               ],
+                                "n_probs":  0,
+                                "min_keep":  0,
+                                "grammar":  "",
+                                "grammar_lazy":  false,
+                                "grammar_triggers":  [
+
+                                                     ],
+                                "preserved_tokens":  [
+
+                                                     ],
+                                "chat_format":  "Content-only",
+                                "samplers":  [
+                                                 "penalties",
+                                                 "dry",
+                                                 "top_n_sigma",
+                                                 "top_k",
+                                                 "typ_p",
+                                                 "top_p",
+                                                 "min_p",
+                                                 "xtc",
+                                                 "temperature"
+                                             ],
+                                "speculative.n_max":  16,
+                                "speculative.n_min":  0,
+                                "speculative.p_min":  0.75,
+                                "timings_per_token":  false,
+                                "post_sampling_probs":  false,
+                                "lora":  [
+
+                                         ]
+                            },
+    "prompt":  "\u003cs\u003e The default Windows XP folder is ",
+    "has_new_line":  true,
+    "truncated":  false,
+    "stop_type":  "eos",
+    "stopping_word":  "",
+    "tokens_cached":  93,
+    "timings":  {
+                    "prompt_n":  5,
+                    "prompt_ms":  37.338,
+                    "prompt_per_token_ms":  7.4676,
+                    "prompt_per_second":  133.91183244951523,
+                    "predicted_n":  86,
+                    "predicted_ms":  1530.861,
+                    "predicted_per_token_ms":  17.800709302325583,
+                    "predicted_per_second":  56.177536693403255
+                }
+}
+Completion response: 
+downloaded in the same directory as the installer, which may make it difficult to identify. You can choose a different path for your installat
+ion files.
+4. Choose the appropriate folder in the installer’s configuration options.
+5. Save the installer package.
+
+By following these steps, you should be able to download and install Microsoft Windows XP from the official website (https://www.microsoft.com
+).
